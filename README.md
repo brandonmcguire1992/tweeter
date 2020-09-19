@@ -7,6 +7,8 @@
 
 This project is a social media API that allows a user to create a profile, add a friend, add their thoughts, and allows friends to add a reaction to the thoughts.
 
+[Video Tutorial](https://drive.google.com/file/d/1pafGUsoYRPowITudewd19mP-j-nmACBG/view)
+
 ## Table of Contents
 
 - [Installation](#Installation)

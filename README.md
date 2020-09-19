@@ -12,9 +12,10 @@ This project is a social media API that allows a user to create a profile, add a
 ## Table of Contents
 
 - [Installation](#Installation)
-- [Quantifiers](#quantifiers)
-- [Character Classes](#character-classes)
-- [Grouping and Capturing](#grouping-and-capturing)
+- [License](#License)
+- [Technologies](#Technologies)
+- [Contributors](#Contributors)
+- [Contact](#Contact)
 
 ## Installation
 

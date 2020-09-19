@@ -91,12 +91,12 @@ const thoughtController = {
     // add a reaction
     addReaction({params, body}, res) {
         Thought.findOneAndUpdate(
-            {_id: params.reactionId},
+            {_id: params.thoughtId},
             {$push: { reactions: body}},
             {new: true, runValidators: true}
         )
-        .then(dbThoughtData => {
-            if(!dbThoughtData) {
+        .then(dbUserData => {
+            if(!dbUserData) {
                 res.status(404).json({message: 'There is no thought found with this id!'});
                 return;
             }
